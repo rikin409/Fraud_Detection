@@ -50,6 +50,15 @@ Now we want to run a similar analysis on cardholder 25, because she suspects tha
 
 ![Cardholder_Data](cardholder_25.png)
 
-As you can see, it looks like there are many fraud transactions. The only month that seems clear of fraud is February.
+As you can see, it looks like there are many fraud transactions. The only month that seems clear of fraud is February. January, March, and May have 1 outlier each. April and June have 3 outliers each. In this situation, it is clear that fraud has occured since there are an overwhelming number of credit card charges that are very far from the mean, and a hypothesis test is not required.
+
+
+#### Challenge (Hypothesis Tests):
+
+Now I want to go back and test whether or on any of the credit cards have "unsually" large amounts of charges under 2.00. In order to define what unsually large, I mean large enough that the count typically shouldn't occur. I determine that at a 5% significance level, any value above 11.028314199666596 is considered "odd", which leaves two credit cards:
+
+376027549341849,
+584226564303
+
 
 
